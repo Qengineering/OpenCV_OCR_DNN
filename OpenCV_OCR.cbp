@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="OpenCV_OCR" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/OpenCV_OCR" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/OpenCV_OCR" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option parameters="34_21.png" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-Wno-unknown-pragmas" />
+			<Add option="-isystem" />
+			<Add option="-fPIE" />
+			<Add option="-fopenmp" />
+			<Add option="-pthread" />
+			<Add option="-DNDEBUG" />
+			<Add directory="/usr/local/include/opencv4" />
+		</Compiler>
+		<Linker>
+			<Add option="-O3" />
+			<Add option="-fopenmp" />
+			<Add option="`pkg-config --libs --cflags opencv4`" />
+			<Add option="-ldl" />
+			<Add option="-lpthread" />
+			<Add option="-pthread" />
+			<Add option="-lgomp" />
+			<Add option="-DNDEBUG" />
+			<Add option="-rdynamic" />
+		</Linker>
+		<Unit filename="main.cpp" />
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>
