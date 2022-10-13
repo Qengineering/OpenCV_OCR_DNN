@@ -46,7 +46,7 @@ DenseNet_CTC.onnx <br/>
 ------------
 
 ## Running the app.
-To run the application load the project file OpenCV_Detect_Text.cbp in Code::Blocks.<br/> 
+To run the application load the project file OpenCV_OCR.cbp in Code::Blocks.<br/> 
 Next, follow the instructions at [Hands-On](https://qengineering.eu/deep-learning-examples-on-raspberry-32-64-os.html#HandsOn).
 
 ------------
