@@ -8,6 +8,11 @@ Special made for a bare Raspberry Pi 4, see [Q-engineering deep learning example
 
 ------------
 
+## Tip.
+:point_right: See also [PaddleOCR-Lite](https://github.com/Qengineering/PaddleOCR-Lite-Document) solution. It is 5 times faster and more accurate.
+
+------------
+
 ## Dependencies.
 To run the application, you have to:
 - A raspberry Pi 4 with a 32 or 64-bit operating system. It can be the Raspberry 64-bit OS, or Ubuntu 18.04 / 20.04. [Install 64-bit OS](https://qengineering.eu/install-raspberry-64-os.html) <br/>
